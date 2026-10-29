@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-20",
+  "recommendation": {
+    "recommended_city": "제주",
+    "weather": "온화하고 여행하기 쾌적함 (기본값)",
+    "events": [
+      "지역 문화 축제"
+    ],
+    "reason": "응답 파싱 오류로 인해 기본 추천 지역으로 대체합니다."
+  },
+  "restaurants": [
+    {
+      "name": "만배회센타",
+      "category": "음식점 > 한식 > 해물,생선 > 회",
+      "address": "제주특별자치도 제주시 국기로2길 2-9",
+      "url": "http://place.map.kakao.com/11420943",
+      "x": "126.490406087764",
+      "y": "33.4790730459664"
+    },
+    {
+      "name": "무상찻집",
+      "category": "음식점 > 카페 > 전통찻집",
+      "address": "제주특별자치도 제주시 서광로5길 10",
+      "url": "http://place.map.kakao.com/1575289135",
+      "x": "126.51439440888899",
+      "y": "33.50100143047981"
+    },
+    {
+      "name": "한림칼국수",
+      "category": "음식점 > 한식 > 국수 > 칼국수",
+      "address": "제주특별자치도 제주시 한림읍 한림해안로 141",
+      "url": "http://place.map.kakao.com/22893211",
+      "x": "126.261506447291",
+      "y": "33.4155670879451"
+    },
+    {
+      "name": "색달식당 순살갈치조림 서귀포본점",
+      "category": "음식점 > 한식 > 해물,생선",
+      "address": "제주특별자치도 서귀포시 예래로 255-18",
+      "url": "http://place.map.kakao.com/17809788",
+      "x": "126.38624334061187",
+      "y": "33.24181180447894"
+    },
+    {
+      "name": "봉주르마담",
+      "category": "음식점 > 간식 > 제과,베이커리",
+      "address": "제주특별자치도 서귀포시 대청로 33",
+      "url": "http://place.map.kakao.com/1627461903",
+      "x": "126.50335545559746",
+      "y": "33.252705082752584"
+    }
+  ],
+  "errors": [
+    {
+      "step": "1차_추천",
+      "type": "JSON_PARSE_ERROR",
+      "message": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "step": "리포트_생성",
+      "type": "LLM_ERROR",
+      "message": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+    }
+  ]
+}

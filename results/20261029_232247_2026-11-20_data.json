@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-20",
+  "recommendation": {
+    "recommended_city": "제주",
+    "weather": "온화하고 여행하기 쾌적함 (기본값)",
+    "events": [
+      "지역 문화 축제"
+    ],
+    "reason": "응답 파싱 오류로 인해 기본 추천 지역으로 대체합니다."
+  },
+  "restaurants": [],
+  "errors": [
+    {
+      "step": "1차_추천",
+      "type": "JSON_PARSE_ERROR",
+      "message": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "step": "맛집_검색",
+      "type": "HTTP_403",
+      "message": "{\"errorType\":\"NotAuthorizedError\",\"message\":\"App(여행을 떠나요) disabled OPEN_MAP_AND_LOCAL service.\"}"
+    },
+    {
+      "step": "리포트_생성",
+      "type": "LLM_ERROR",
+      "message": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    }
+  ]
+}
